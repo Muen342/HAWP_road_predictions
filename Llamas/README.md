@@ -23,7 +23,10 @@ It will output the loss of each epoch on the specified dataset for a sample of 5
 If you want to get the val loss, rename train.json to something else temporarily and rename val.json to train.json
 
 If you want to test the set on the test set run $sbatch run_test.sh and get the results in a json format
+Replace their test.py with the test.py in this repo because they test on two datasets while we only need to test on one
+(there is a break that I added)
 
 If you want to test it and see the results plotted run $sbatch run_predict.sh
 However you must first place the images you want to predict into figures/ and edit run_predict.sh to use the names of the images you chose
 
+Replace their predict.py with the predict.py in this repo because it doesnt display on graham so you need to be able to save it. once it is saved it will be in your root directory under the name of predicted + "number".png
