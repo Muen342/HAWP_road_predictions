@@ -32,3 +32,5 @@ If you want to test it and see the results plotted run $sbatch run_predict.sh
 However you must first place the images you want to predict into figures/ and edit run_predict.sh to use the names of the images you chose
 
 Replace their predict.py with the predict.py in this repo because it doesnt display on graham so you need to be able to save it. once it is saved it will be in your root directory under the name of predicted + "number".png
+
+The models that have been trained already can be found here: https://drive.google.com/drive/folders/1C9G5aEmAUSry7DSec90DlJtfPzEIPH8c?usp=sharing
