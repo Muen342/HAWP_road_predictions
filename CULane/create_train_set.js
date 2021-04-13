@@ -114,7 +114,7 @@ for(const file of files){
 // convert JSON object to string
 const data1 = JSON.stringify(toFile);
 // write JSON string to a file
-fs.writeFile('CULane_train.json', data1, (err) => {
+fs.writeFile('train.json', data1, (err) => {
     if (err) {
         throw err;
     }
