@@ -180,9 +180,9 @@ for test in totest:
     newobj["junc"] = juncs
     totest_real.append(newobj)
 
-with open('valllamas.json', 'w') as f:
+with open('val.json', 'w') as f:
     json.dump(toval, f)
-with open('testllamas.json', 'w') as f:
+with open('test.json', 'w') as f:
     json.dump(totest_real, f)
-with open('trainllamas.json', 'w') as f:
+with open('train.json', 'w') as f:
     json.dump(tofile, f)
